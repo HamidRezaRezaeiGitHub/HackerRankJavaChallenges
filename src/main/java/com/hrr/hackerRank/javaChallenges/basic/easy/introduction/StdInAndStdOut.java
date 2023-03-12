@@ -12,13 +12,10 @@ public class StdInAndStdOut {
         Scanner scanner = new Scanner(is);
 //        Scanner scanner = new Scanner(System.in);
 
-        String myString = scanner.next();
-        int myInt = scanner.nextInt();
+        for (int i=0; i<3; i++){
+            System.out.println(scanner.nextInt());
+        }
         scanner.close();
-
-        System.out.println("myString is: " + myString);
-        System.out.println("myInt is: " + myInt);
-
     }
 
 }
