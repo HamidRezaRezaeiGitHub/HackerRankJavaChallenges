@@ -1,7 +1,6 @@
 package com.hrr.hackerRank.javaChallenges.basic.easy.introduction;
 
-import com.hrr.hackerRank.javaChallenges.inputs.FileLoader;
-
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class StdInAndStdOut {
@@ -9,7 +8,8 @@ public class StdInAndStdOut {
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        Scanner scanner = new Scanner(FileLoader.readInputStream("StdInAndStdOut.txt"));
+        InputStream is = StdInAndStdOut.class.getClassLoader().getResourceAsStream("StdInAndStdOut.txt");
+        Scanner scanner = new Scanner(is);
 //        Scanner scanner = new Scanner(System.in);
 
         String myString = scanner.next();
