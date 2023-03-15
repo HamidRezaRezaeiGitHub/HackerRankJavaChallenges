@@ -7,7 +7,7 @@ public class OutputFormatting {
     //    https://www.hackerrank.com/challenges/java-output-formatting/problem?isFullScreen=true
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        InputStream is = StdInAndStdOut.class.getClassLoader().getResourceAsStream("OutputFormatting.txt");
+        InputStream is = OutputFormatting.class.getClassLoader().getResourceAsStream("OutputFormatting.txt");
         Scanner sc = new Scanner(is);
 //        Scanner sc=new Scanner(System.in);
         System.out.println("================================");

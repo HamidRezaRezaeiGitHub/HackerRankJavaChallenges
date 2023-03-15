@@ -7,7 +7,7 @@ public class StdInAndStdOut2 {
 //    https://www.hackerrank.com/challenges/java-stdin-stdout/problem?isFullScreen=true
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        InputStream is = StdInAndStdOut.class.getClassLoader().getResourceAsStream("StdInAndStdOut2.txt");
+        InputStream is = StdInAndStdOut2.class.getClassLoader().getResourceAsStream("StdInAndStdOut2.txt");
         Scanner sc = new Scanner(is);
 //        Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
